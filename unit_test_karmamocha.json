@@ -1,0 +1,67 @@
+{
+    "Report UI RegressionController1 Decision and Image values for STOP": {
+        "$scope.decision should be STOP and $image_name should be imagefiles/stop.png": "PASSED"
+    },
+    "Report UI RegressionController1 Decision and Image values for STOP - Advisory": {
+        "$scope.decision should be STOP - ADVISORY and $image_name should be imagefiles/warning.png": "PASSED"
+    },
+    "Report UI RegressionController1 Decision and Image values for PROCEED": {
+        "$scope.decision should not be STOP && should not be STOP - ADVISORY and $image_name should be imagefiles/proceed.png": "PASSED"
+    },
+    "Report UI RegressionController1 Check Rules Array TestRegression ReportType": {
+        "Rules[ 0 ] should be a TestRegression report ": "PASSED"
+    },
+    "Report UI RegressionController1 Check Rules Array CoverageRegression ReportType": {
+        "ReportType should be set CoverageRegression ": "PASSED",
+        "Rules[ 0 ].conditions[ 0 ]covRegressionResults[ 0 ] should be a valid regression object ": "PASSED",
+        "Rules[ 0 ].conditions[ 0 ]covRegressionResults[ 2 ] should be a valid regression object ": "PASSED",
+        "TimeStamps should be set ": "PASSED"
+    },
+    "Report UI RegressionController1 Check Rules Array TestResult ReportType": {
+        "Rules[ 0 ].conditions[ 0 ] should be a graphed Test Result report ": "PASSED"
+    },
+    "Report UI RegressionController1 Check Rules Array Basic Report Mode": {
+        "Rules[ 2 ].conditions[ 0 ] should be a Basic reportType ": "FAILED",
+        "Rules[ 2 ].conditions[ 1 ] should be a Graph reportType ": "PASSED",
+        "Rules[ 2 ].conditions[ 2 ] should be a Graph reportType ": "PASSED"
+    },
+    "Report UI rulesResultList Directive ": {
+        "Check the number of elements in the list": "PASSED",
+        "Check the Outcome element in the list": "PASSED",
+        "Check two elements in the list": "PASSED"
+    },
+    "Report UI rulesResultAttributeList Directive ": {
+        "Check for eight list elements - first the outcome, then the drilldownurl, followed by the attributes": "PASSED",
+        "Check that Attributes are listed for the first element": "PASSED",
+        "Check that Attributes are listed for the sixth element": "FAILED"
+    },
+    "Report UI rulesResultGraph Directive ": {
+        "Check the Outcome element in the list": "PASSED",
+        "Check first and last conditions": "PASSED"
+    },
+    "Report UI rulesResultGraphT Directive ": {
+        "Check the Outcome element in the list": "PASSED",
+        "Check first and last conditions": "PASSED"
+    },
+    "Report UI rulesResultCovRegression Directive ": {
+        "Check for three BarChart Directives": "PASSED",
+        "Check that both files are listed": "PASSED"
+    },
+    "Report UI barChart Directive  Istanbul Coverage GraphTable Arrows, font color, and percentage points": {
+        "Verify graphTable data for greater than zero": "PASSED",
+        "Verify graphTable data for equal to zero": "PASSED",
+        "Verify graphTable data for less than zero": "PASSED"
+    },
+    "Report UI barChart Directive  Istanbul Coverage D3js Graph Bars, Labels, and Legends": {
+        "X axis should have labels": "PASSED",
+        "Verify D3 legend should have the timestamps": "FAILED"
+    },
+    "Report UI barChart Directive  Blanket Coverage GraphTable Arrows, font color, and percentage points": {
+        "Should only have one cell for Blanket coverage": "PASSED",
+        "Verify graphTable data for equal to zero": "PASSED"
+    },
+    "Report UI barChart Directive  Blanket Coverage D3js Graph Bars, Labels, and Legends": {
+        "X axis should have labels": "PASSED",
+        "Verify D3 legend should have the timestamps": "PASSED"
+    }
+}

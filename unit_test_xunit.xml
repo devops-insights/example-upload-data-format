@@ -1,0 +1,349 @@
+
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test Setup" tests="4" failures="0" errors="0">
+    <testcase name="#1 Was authenticate test user with TIAM successful?"/>
+    <testcase name="#2 Authentication succeeded for mock user: idsb3t1@us.ibm.com"/>
+    <testcase name="#3 Was authenticate test user with TIAM successful?"/>
+    <testcase name="#4 Authentication succeeded for mock user: idsb3t4@us.ibm.com"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test cleanup" tests="16" failures="0" errors="0">
+    <testcase name="#5 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Put-repo_name"/>
+    <testcase name="#6 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Unbind-Other-Org"/>
+    <testcase name="#7 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Put-clone"/>
+    <testcase name="#8 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Put-repo_url"/>
+    <testcase name="#9 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Put-clone-with-issues"/>
+    <testcase name="#10 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Put-clone-without-issues"/>
+    <testcase name="#11 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Unbind"/>
+    <testcase name="#12 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/testRepo-Put-repo_name_without_issues"/>
+    <testcase name="#13 Was the following repo cleaned up? https://github.stage1.ng.bluemix.net/api/v3/repos/idsb3t4/fork-test"/>
+    <testcase name="#14 Was the following service instance cleaned up? 1234567"/>
+    <testcase name="#15 Was the following service instance cleaned up? 1234"/>
+    <testcase name="#16 Was the following service instance cleaned up? 123456"/>
+    <testcase name="#17 Was the following service instance cleaned up? 12345"/>
+    <testcase name="#18 Was the following service instance cleaned up? 123456789"/>
+    <testcase name="#19 Was the following service instance cleaned up? 1234567890"/>
+    <testcase name="#20 Was the following service instance cleaned up? 12345678"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test Authentication" tests="4" failures="0" errors="0">
+    <testcase name="#21 did the authentication request with no Auth header fail?"/>
+    <testcase name="#22 did the authentication request with no bearer in the Auth header fail?"/>
+    <testcase name="#23 did the authentication request with an empty Auth header fail?"/>
+    <testcase name="#24 did the authentication request an invalid token in the Auth header fail?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance w/o a service_id" tests="2" failures="0" errors="0">
+    <testcase name="#25 did the put instance call with no service id fail?"/>
+    <testcase name="#26 Did the put instance call with no service id fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance w/ an empty or an invalid org id" tests="3" failures="0" errors="0">
+    <testcase name="#27 did the put instance call fail with no organization_guid?"/>
+    <testcase name="#28 Did the put instance call with no organization_guid fail with the correct error message?"/>
+    <testcase name="#29 did the put instance call fail when the user is not part of the orginization?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance w/o a repo_name or repo_url" tests="2" failures="0" errors="0">
+    <testcase name="#30 did the put instance call fail with no repo_name or repo_url?"/>
+    <testcase name="#31 Did the put instance call with no repo_name or repo_url fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance" tests="2" failures="0" errors="0">
+    <testcase name="#32 did the put instance call succeed?"/>
+    <testcase name="#33 did the put instance call return an instance_id?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with invalid instance id" tests="2" failures="0" errors="0">
+    <testcase name="#34 Did the patch instance call fail for non-existant id?"/>
+    <testcase name="#35 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with no properties" tests="2" failures="0" errors="0">
+    <testcase name="#36 Did the patch instance call fail for no properties?"/>
+    <testcase name="#37 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with non-allowable instance properties" tests="2" failures="0" errors="0">
+    <testcase name="#38 Did the patch instance call fail for non-allowed instance properties?"/>
+    <testcase name="#39 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with non-allowable parameters properties" tests="2" failures="0" errors="0">
+    <testcase name="#40 Did the patch instance call fail for non-allowed parameters properties?"/>
+    <testcase name="#41 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with invalid repo_url format" tests="2" failures="0" errors="0">
+    <testcase name="#42 Did the patch instance call fail for invalid repo_url format?"/>
+    <testcase name="#43 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with no repo_url" tests="2" failures="0" errors="0">
+    <testcase name="#44 Did the patch instance call fail for no repo_url?"/>
+    <testcase name="#45 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with non-existant repo" tests="2" failures="0" errors="0">
+    <testcase name="#46 Did the patch instance call fail for non-existant repo_url?"/>
+    <testcase name="#47 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance from another org" tests="2" failures="0" errors="0">
+    <testcase name="#48 Did the patch instance call fail?"/>
+    <testcase name="#49 Did the patch instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with a valid repo_url" tests="10" failures="0" errors="0">
+    <testcase name="#50 Did the patch instance call succeed?"/>
+    <testcase name="#51 Did the patch instance call return parameters?"/>
+    <testcase name="#52 Did the patch instance call update the repo_url?"/>
+    <testcase name="#53 Did the patch instance call update the owner_id?"/>
+    <testcase name="#54 Did the patch instance call update the repo_name?"/>
+    <testcase name="#55 Did the patch instance call update the label?"/>
+    <testcase name="#56 Did the patch instance call return extra_capabilities?"/>
+    <testcase name="#57 Did the patch instance call update the extra capability dashboard url?"/>
+    <testcase name="#58 Did the patch instance call update the extra capability label?"/>
+    <testcase name="#59 Did the patch instance call update the extra capability enabled flag?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with a valid repo_url without .git extension" tests="10" failures="0" errors="0">
+    <testcase name="#60 Did the patch instance call succeed?"/>
+    <testcase name="#61 Did the patch instance call return parameters?"/>
+    <testcase name="#62 Did the patch instance call update the repo_url?"/>
+    <testcase name="#63 Did the patch instance call update the owner_id?"/>
+    <testcase name="#64 Did the patch instance call update the repo_name?"/>
+    <testcase name="#65 Did the patch instance call update the label?"/>
+    <testcase name="#66 Did the patch instance call return extra_capabilities?"/>
+    <testcase name="#67 Did the patch instance call update the extra capability dashboard url?"/>
+    <testcase name="#68 Did the patch instance call update the extra capability label?"/>
+    <testcase name="#69 Did the patch instance call update the extra capability enabled flag?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PATCH instance with has_issues" tests="4" failures="0" errors="0">
+    <testcase name="#70 Did the patch instance call succeed?"/>
+    <testcase name="#71 Did the patch instance call return parameters?"/>
+    <testcase name="#72 Did the patch instance call return extra_capabilities?"/>
+    <testcase name="#73 Did the patch instance call update the extra capability enabled flag?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test GET service instance from another org" tests="2" failures="0" errors="0">
+    <testcase name="#74 Did the get instance call fail?"/>
+    <testcase name="#75 Did the get instance call fail with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test GET service instance" tests="11" failures="0" errors="0">
+    <testcase name="#76 Did the get instance call succeed?"/>
+    <testcase name="#77 Did the get instance call return the instance_id?"/>
+    <testcase name="#78 Did the get instance call return the organization_guid?"/>
+    <testcase name="#79 Did the get instance call return the dashboard_url?"/>
+    <testcase name="#80 Did the get instance call return the repo_url?"/>
+    <testcase name="#81 Did the get instance call return the owner_id?"/>
+    <testcase name="#82 Did the get instance call return the repo_name?"/>
+    <testcase name="#83 Did the get instance call return the label?"/>
+    <testcase name="#84 Did the get instance call return the api_root_url?"/>
+    <testcase name="#85 Did the get instance call return the token_url?"/>
+    <testcase name="#86 Did the get instance call return the extra_capabilties?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT bind instance to toolchain" tests="1" failures="0" errors="0">
+    <testcase name="#87 did the bind instance to toolchain call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT bind instance to toolchain w/ other org" tests="1" failures="0" errors="0">
+    <testcase name="#88 did the instance with other org fail to bind to toolchain?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance that still has toolchains bound" tests="1" failures="0" errors="0">
+    <testcase name="#89 did the delete instance call fail because it was still bound?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE unbind instance from toolchain" tests="1" failures="0" errors="0">
+    <testcase name="#90 did the unbind instance call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance w/ other org" tests="1" failures="0" errors="0">
+    <testcase name="#91 did the instance with other org fail to delete?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance" tests="1" failures="0" errors="0">
+    <testcase name="#92 did the delete instance call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT bind instance that does not exist to toolchain" tests="1" failures="0" errors="0">
+    <testcase name="#93 did the bind instance that does not exist to toolchain call fail?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance that does not exist" tests="1" failures="0" errors="0">
+    <testcase name="#94 did the delete instance call fail because it does not exist?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE unbind instance that does not exist from toolchain" tests="1" failures="0" errors="0">
+    <testcase name="#95 did the unbind instance from toolchain call fail beacause it does not exist?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE unbind instance that does not exist from all toolchains" tests="1" failures="0" errors="0">
+    <testcase name="#96 did the unbind instance from all toolchains call fail beacause it does not exist?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE unbind instance from toolchain w/ other org" tests="7" failures="0" errors="0">
+    <testcase name="#97 did the put instance call succeed?"/>
+    <testcase name="#98 did the put instance call return an instance_id?"/>
+    <testcase name="#99 did the bind instance to toolchain call succeed?"/>
+    <testcase name="#100 did the unbind instance call with other org fail?"/>
+    <testcase name="#101 did the delete instance call fail because it was still bound?"/>
+    <testcase name="#102 did the unbind instance call succeed?"/>
+    <testcase name="#103 did the delete instance call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance w/ repo_url" tests="4" failures="0" errors="0">
+    <testcase name="#104 did the put instance call succeed with a repo_name?"/>
+    <testcase name="#105 did the put instance call with a repo_name return an instance_id?"/>
+    <testcase name="#106 did the put instance call succeed with a repo_url?"/>
+    <testcase name="#107 did the put instance call with a repo_url return an instance_id?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance provisioned for a GitHub repo that already exists" tests="2" failures="0" errors="0">
+    <testcase name="#108 did the put instance call fail for a GitHub repo that already exists?"/>
+    <testcase name="#109 did the put instance call for a GitHub repo that already exists return a description (error)?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance provisioned for a GitHub repo fork" tests="4" failures="0" errors="0">
+    <testcase name="#110 did the put instance call succeed with a repo_url and fork set to true?"/>
+    <testcase name="#111 did the put instance call with a repo_url and fork set to true return an instance_id?"/>
+    <testcase name="#112 did the put instance call for a fork that already exists fail?"/>
+    <testcase name="#113 did the put instance call for a fork that already exists return a description (error)?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance provisioned for a GitHub repo clone" tests="2" failures="0" errors="0">
+    <testcase name="#114 did the put instance call succeed with a repo_name, repo_url, and type set to &quot;clone&quot;?"/>
+    <testcase name="#115 did the put instance call with a repo_name, repo_url, and type set to &quot;clone&quot; return an instance_id?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance provisioned for a GitHub repo clone with and without issues" tests="4" failures="0" errors="0">
+    <testcase name="#116 did the put instance call succeed with a repo_name, repo_url, has_issues=false and type=&quot;clone&quot;?"/>
+    <testcase name="#117 did the put instance call with a repo_name, repo_url, has_issues=false and type=&quot;clone&quot; return an instance_id?"/>
+    <testcase name="#118 did the put instance call succeed with a repo_name, repo_url, has_issues=true and type=&quot;clone&quot;?"/>
+    <testcase name="#119 did the put instance call with a repo_name, repo_url, has_issues=true and type=&quot;clone&quot; return an instance_id?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instances provisioned w/ clone" tests="3" failures="0" errors="0">
+    <testcase name="#120 did the delete instance call succeed for instance created with clone and has_issues=true?"/>
+    <testcase name="#121 did the delete instance call succeed for instance created with clone and has_issues=false?"/>
+    <testcase name="#122 did the delete instance call succeed for the instance created with clone?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance provisioned w/ fork" tests="1" failures="0" errors="0">
+    <testcase name="#123 did the delete instance call succeed for instance created with repo_url?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance provisioned w/ repo_url" tests="1" failures="0" errors="0">
+    <testcase name="#124 did the delete instance call succeed for instance created with repo_url?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance provisioned w/ repo_name" tests="1" failures="0" errors="0">
+    <testcase name="#125 did the delete instance call succeed for instance created with repo_name?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance w/ repo_url that does not exist" tests="2" failures="0" errors="0">
+    <testcase name="#126 did the put instance call fail for repo_url that does not exist?"/>
+    <testcase name="#127 did the put instance call for repo_url that does not exist return a description (error)?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE unbind instance from toolchain" tests="5" failures="0" errors="0">
+    <testcase name="#128 did the put instance call succeed?"/>
+    <testcase name="#129 did the put instance call return an instance_id?"/>
+    <testcase name="#130 did the bind instance to toolchain call succeed?"/>
+    <testcase name="#131 did the unbind instance call succeed?"/>
+    <testcase name="#132 did the delete instance call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test PUT instance w/ repo_name and has_issues disabled" tests="3" failures="0" errors="0">
+    <testcase name="#133 did the put instance call succeed with a repo_name?"/>
+    <testcase name="#134 was the correct label set?"/>
+    <testcase name="#135 was the enabled setting set to false?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test DELETE instance provisioned w/ repo_name and has_issues disabled" tests="1" failures="0" errors="0">
+    <testcase name="#136 did the delete instance call succeed for instance created with repo_name and has_issues disabled?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate w/o properties" tests="4" failures="0" errors="0">
+    <testcase name="#137 did the validate call fail w/o properties?"/>
+    <testcase name="#138 Did the validate call fail w/o properties with the correct error message?"/>
+    <testcase name="#139 did the validate call fail w/o properties?"/>
+    <testcase name="#140 Did the validate call fail w/o properties with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for invalid or empty validationType" tests="6" failures="0" errors="0">
+    <testcase name="#141 did the validate call fail for an empty validationType?"/>
+    <testcase name="#142 Did the validate call fail for an empty validationType with the correct error message?"/>
+    <testcase name="#143 did the validate call fail for an empty validationType?"/>
+    <testcase name="#144 Did the validate call fail for an empty validationType with the correct error message?"/>
+    <testcase name="#145 did the validate call fail for an invalid validationType?"/>
+    <testcase name="#146 Did the validate call fail for an invalid validationType with the correct error message?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create w/o a repo_name or repo_url and with fork" tests="5" failures="0" errors="0">
+    <testcase name="#147 did the validate call succeed with no repo_name or repo_url?"/>
+    <testcase name="#148 Did the validate call with no repo_name or repo_url succeed with the correct validation message for repo_name?"/>
+    <testcase name="#149 Did the validate call with no repo_name or repo_url succeed with the correct validation message for repo_url?"/>
+    <testcase name="#150 Did the validate call with no repo_name or repo_url and with type succeed with the correct validation message for type?"/>
+    <testcase name="#151 Did the validate call with no repo_name or repo_url succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with both a repo_name and a repo_url and with fork" tests="5" failures="0" errors="0">
+    <testcase name="#152 did the validate call succeed with both a repo_name and a repo_url?"/>
+    <testcase name="#153 Did the validate call with both a repo_name and a repo_url succeed with the correct validation message for repo_name?"/>
+    <testcase name="#154 Did the validate call with both a repo_name and a repo_url succeed with the correct validation message for repo_url?"/>
+    <testcase name="#155 Did the validate call with fork succeed with the correct validation message for type?"/>
+    <testcase name="#156 Did the validate call with both a repo_name and a repo_url and with fork succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with has_issues used with repo_url" tests="5" failures="0" errors="0">
+    <testcase name="#157 did the validate call fail with has_issues used with repo_url?"/>
+    <testcase name="#158 Did the validate call with has_issues used with repo_url succeed with no validation message for repo_name?"/>
+    <testcase name="#159 Did the validate call with has_issues used with repo_url succeed with no validation message for repo_url?"/>
+    <testcase name="#160 Did the validate call with has_issues used with repo_url succeed with no validation message for type?"/>
+    <testcase name="#161 Did the validate call with has_issues and repo_url succeed with the correct validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with repo_name" tests="5" failures="0" errors="0">
+    <testcase name="#162 did the validate call with a repo_name succeed?"/>
+    <testcase name="#163 did the validate call with a repo_name succeed with no validation message for repo_name?"/>
+    <testcase name="#164 Did the validate call with a repo_name succeed with no validation message for repo_url?"/>
+    <testcase name="#165 Did the validate call with a repo_name succeed with no validation message for type?"/>
+    <testcase name="#166 Did the validate call with a repo_name succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with an existing repo_name" tests="5" failures="0" errors="0">
+    <testcase name="#167 did the validate call fail with an existing repo_name?"/>
+    <testcase name="#168 Did the validate call with an existing repo_name succeed with the correct validation message for repo_name?"/>
+    <testcase name="#169 Did the validate call with an existing repo_name succeed with no validation message for repo_url?"/>
+    <testcase name="#170 Did the validate call with an existing repo_name succeed with no validation message for type?"/>
+    <testcase name="#171 Did the validate call with an existing repo_name succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with a repo_url that does not exists or is invalid" tests="10" failures="0" errors="0">
+    <testcase name="#172 did the validate call pass with an invalid repo_url?"/>
+    <testcase name="#173 Did the validate call for create with an invalid repo_url succeed with the correct validation message for repo_name?"/>
+    <testcase name="#174 Did the validate call for create with an invalid repo_url succeed with no validation message for repo_url?"/>
+    <testcase name="#175 Did the validate call for create with an invalid repo_url succeed with the correct validation message for type?"/>
+    <testcase name="#176 Did the validate call for create with an invalid repo_url with no validation message for has_issues?"/>
+    <testcase name="#177 did the validate call pass with a repo_url that does not exists?"/>
+    <testcase name="#178 Did the validate call with a repo_url that does not exists succeed with no validation message for repo_name?"/>
+    <testcase name="#179 Did the validate call with a repo_url that does not exists succeed with the correct validation message for repo_url?"/>
+    <testcase name="#180 Did the validate call with a repo_url that does not exists succeed with no validation message for type?"/>
+    <testcase name="#181 Did the validate call with a repo_url that does not exists succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with a repo_url, repo_name, and clone" tests="5" failures="0" errors="0">
+    <testcase name="#182 did the validate call pass for create with a repo_url, repo_name, and clone?"/>
+    <testcase name="#183 Did the validate call with a repo_url, repo_name, and clone succeed with no validation message for repo_name?"/>
+    <testcase name="#184 Did the validate call with a repo_url, repo_name, and clone succeed with the correct validation message for repo_url?"/>
+    <testcase name="#185 Did the validate call with a repo_url, repo_name, and clone succeed with no validation message for type?"/>
+    <testcase name="#186 Did the validate call with a repo_url, repo_name, and clone succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for create with clone but without a repo_url or repo_name" tests="10" failures="0" errors="0">
+    <testcase name="#187 did the validate call pass for create with clone but without a repo_url?"/>
+    <testcase name="#188 Did the validate call for create with clone but without a repo_url succeed with no validation message for repo_name?"/>
+    <testcase name="#189 Did the validate call for create with clone but without a repo_url succeed with the correct validation message for repo_url?"/>
+    <testcase name="#190 Did the validate call for create with clone but without a repo_url succeedwith the correct validation message for type?"/>
+    <testcase name="#191 Did the validate call for create with clone but without a repo_url with no validation message for has_issues?"/>
+    <testcase name="#192 did the validate call pass for create with clone but without a repo_name?"/>
+    <testcase name="#193 Did the validate call for create with clone but without a repo_name succeed with the correct validation message for repo_name?"/>
+    <testcase name="#194 Did the validate call for create with clone but without a repo_name succeed with no validation message for repo_url?"/>
+    <testcase name="#195 Did the validate call for create with clone but without a repo_name succeed with the correct validation message for type?"/>
+    <testcase name="#196 Did the validate call for create with clone but without a repo_name with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for update with has_issues used with repo_url" tests="5" failures="0" errors="0">
+    <testcase name="#197 did the validate call pass for update with has_issues used with repo_url?"/>
+    <testcase name="#198 Did the validate call for update with has_issues used with repo_url succeed with no validation message for repo_name?"/>
+    <testcase name="#199 Did the validate call for update with has_issues used with repo_url succeed with no validation message for repo_url?"/>
+    <testcase name="#200 Did the validate call for update with has_issues used with repo_url succeed with no validation message for type?"/>
+    <testcase name="#201 Did the validate call for update with has_issues used with repo_url succeed with no validation message message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test POST /github/validate for update with a repo_url that does not exists or is invalid" tests="20" failures="0" errors="0">
+    <testcase name="#202 did the validate call pass with a repo_url that is empty?"/>
+    <testcase name="#203 Did the validate call with a repo_url that is empty succeed with no validation message for repo_name?"/>
+    <testcase name="#204 Did the validate call with a repo_url that is empty succeed with the correct validation message for repo_url?"/>
+    <testcase name="#205 Did the validate call with a repo_url that is empty succeed with no validation message for type?"/>
+    <testcase name="#206 Did the validate call with a repo_url that is empty succeed with no validation message for has_issues?"/>
+    <testcase name="#207 did the validate call pass with an invalid repo_url?"/>
+    <testcase name="#208 Did the validate call for create with an invalid repo_url succeed with the correct validation message for repo_name?"/>
+    <testcase name="#209 Did the validate call for create with an invalid repo_url succeed with no validation message for repo_url?"/>
+    <testcase name="#210 Did the validate call for create with an invalid repo_url succeed with the correct validation message for type?"/>
+    <testcase name="#211 Did the validate call for create with an invalid repo_url with no validation message for has_issues?"/>
+    <testcase name="#212 did the validate call pass with a repo_url hosted on github.com?"/>
+    <testcase name="#213 Did the validate call for create with a repo_url hosted on github.com succeed with the correct validation message for repo_name?"/>
+    <testcase name="#214 Did the validate call for create with a repo_url hosted on github.com succeed with no validation message for repo_url?"/>
+    <testcase name="#215 Did the validate call for create with a repo_url hosted on github.com succeed with the correct validation message for type?"/>
+    <testcase name="#216 Did the validate call for create with a repo_url hosted on github.com with no validation message for has_issues?"/>
+    <testcase name="#217 did the validate call pass with a repo_url that does not exists?"/>
+    <testcase name="#218 Did the validate call with a repo_url that does not exists succeed with no validation message for repo_name?"/>
+    <testcase name="#219 Did the validate call with a repo_url that does not exists succeed with the correct validation message for repo_url?"/>
+    <testcase name="#220 Did the validate call with a repo_url that does not exists succeed with no validation message for type?"/>
+    <testcase name="#221 Did the validate call with a repo_url that does not exists succeed with no validation message for has_issues?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test GET status" tests="1" failures="0" errors="0">
+    <testcase name="#222 did the get status call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test GET version" tests="1" failures="0" errors="0">
+    <testcase name="#223 did the get version call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test GET GitHub token" tests="1" failures="0" errors="0">
+    <testcase name="#224 did the get GitHub token call succeed?"/>
+  </testsuite>
+  <testsuite package="otc-github-broker" name="GitHub Broker - Test GET GitHub API url" tests="1" failures="0" errors="0">
+    <testcase name="#225 did the get GitHub API url call succeed?"/>
+  </testsuite>
+</testsuites>

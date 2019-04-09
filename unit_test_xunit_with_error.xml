@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite errors="9" hostname="mblmac03.swg.usma.ibm.com" name="console.bluemix.net - 9bdf6fa6-c750-38c2-8f8e-e90a92f89718 - node - Kube - No services - View test results at https://devex-jenkins.swg-devops.com:8443/job/appman-api-testing/37/" skipped="0" tests="10" time="5.526" timestamp="2018-07-20T18:04:22">
+    <properties />
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="CreateApp" time="3.163">
+        <failure message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </failure>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="VerifyServiceCreation" time="0.202">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="Generate" time="0.228">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="GenerateCheckStatus" time="0.201">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="CreateToolchain" time="0.177">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DevopsPipelineBuildStageIsOK" time="0.305">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DevopsPipelineDeployStageIsOK" time="0.2">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="IsAppRunning" time="0.228">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DeleteServices" time="0.181">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DeleteApp" time="0.198">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <system-out><![CDATA[++++++++++++ START SYSTEM-OUT FOR CreateApp ++++++++++++
+Failed: test01CreateApp
+------------ END SYSTEM-OUT FOR CreateApp --------------
+++++++++++++ START SYSTEM-OUT FOR VerifyServiceCreation ++++++++++++
+Failed: test02VerifyServiceCreation
+------------ END SYSTEM-OUT FOR VerifyServiceCreation --------------
+++++++++++++ START SYSTEM-OUT FOR Generate ++++++++++++
+Failed: test03Generate
+------------ END SYSTEM-OUT FOR Generate --------------
+++++++++++++ START SYSTEM-OUT FOR GenerateCheckStatus ++++++++++++
+Failed: test04GenerateCheckStatus
+------------ END SYSTEM-OUT FOR GenerateCheckStatus --------------
+++++++++++++ START SYSTEM-OUT FOR CreateToolchain ++++++++++++
+Failed: test05CreateToolchain
+------------ END SYSTEM-OUT FOR CreateToolchain --------------
+++++++++++++ START SYSTEM-OUT FOR DevopsPipelineBuildStageIsOK ++++++++++++
+Failed: test06DevopsPipelineBuildStageIsOK
+------------ END SYSTEM-OUT FOR DevopsPipelineBuildStageIsOK --------------
+++++++++++++ START SYSTEM-OUT FOR DevopsPipelineDeployStageIsOK ++++++++++++
+Failed: test07DevopsPipelineDeployStageIsOK
+------------ END SYSTEM-OUT FOR DevopsPipelineDeployStageIsOK --------------
+++++++++++++ START SYSTEM-OUT FOR IsAppRunning ++++++++++++
+Failed: test08IsAppRunning
+------------ END SYSTEM-OUT FOR IsAppRunning --------------
+++++++++++++ START SYSTEM-OUT FOR DeleteServices ++++++++++++
+Failed: test09DeleteServices
+------------ END SYSTEM-OUT FOR DeleteServices --------------
+++++++++++++ START SYSTEM-OUT FOR DeleteApp ++++++++++++
+Failed: test10DeleteApp
+------------ END SYSTEM-OUT FOR DeleteApp --------------
+]]></system-out>
+    <system-err><![CDATA[++++++++++++ START SYSTEM-ERR FOR CreateApp ++++++++++++
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+------------ END SYSTEM-ERR FOR CreateApp --------------
+++++++++++++ START SYSTEM-ERR FOR VerifyServiceCreation ++++++++++++
+------------ END SYSTEM-ERR FOR VerifyServiceCreation --------------
+++++++++++++ START SYSTEM-ERR FOR Generate ++++++++++++
+------------ END SYSTEM-ERR FOR Generate --------------
+++++++++++++ START SYSTEM-ERR FOR GenerateCheckStatus ++++++++++++
+------------ END SYSTEM-ERR FOR GenerateCheckStatus --------------
+++++++++++++ START SYSTEM-ERR FOR CreateToolchain ++++++++++++
+------------ END SYSTEM-ERR FOR CreateToolchain --------------
+++++++++++++ START SYSTEM-ERR FOR DevopsPipelineBuildStageIsOK ++++++++++++
+------------ END SYSTEM-ERR FOR DevopsPipelineBuildStageIsOK --------------
+++++++++++++ START SYSTEM-ERR FOR DevopsPipelineDeployStageIsOK ++++++++++++
+------------ END SYSTEM-ERR FOR DevopsPipelineDeployStageIsOK --------------
+++++++++++++ START SYSTEM-ERR FOR IsAppRunning ++++++++++++
+------------ END SYSTEM-ERR FOR IsAppRunning --------------
+++++++++++++ START SYSTEM-ERR FOR DeleteServices ++++++++++++
+------------ END SYSTEM-ERR FOR DeleteServices --------------
+++++++++++++ START SYSTEM-ERR FOR DeleteApp ++++++++++++
+------------ END SYSTEM-ERR FOR DeleteApp --------------
+]]></system-err>
+</testsuite>
+<testsuite failures="1" hostname="mblmac03.swg.usma.ibm.com" name="console.bluemix.net - 9bdf6fa6-c750-38c2-8f8e-e90a92f89718 - node - Kube - No services - View test results at https://devex-jenkins.swg-devops.com:8443/job/appman-api-testing/37/" skipped="0" tests="10" time="5.526" timestamp="2018-07-20T18:04:22">
+    <properties />
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="CreateApp" time="3.163">
+        <failure message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </failure>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="VerifyServiceCreation" time="0.202">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="Generate" time="0.228">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="GenerateCheckStatus" time="0.201">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="CreateToolchain" time="0.177">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DevopsPipelineBuildStageIsOK" time="0.305">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DevopsPipelineDeployStageIsOK" time="0.2">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="IsAppRunning" time="0.228">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DeleteServices" time="0.181">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <testcase classname="com.ibm.devex.appman.integration.E2ESuiteCommon" name="DeleteApp" time="0.198">
+        <error message="Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;" type="java.lang.RuntimeException">java.lang.RuntimeException: Environment variable &apos;platform&apos; must be one of [CORDOVA, ANDROID, IOS_SWIFT, NODE, JAVA, SWIFT, DJANGO, PYTHON, SPRING, LOWCODE, SCALA, GO], but was &apos;node&apos;
+            at com.ibm.devex.appman.integration.BaseIT.validateProperty(BaseIT.java:406)
+            at com.ibm.devex.appman.integration.E2ETestsAbstract.&lt;init&gt;(E2ETestsAbstract.java:107)
+            at com.ibm.devex.appman.integration.E2ETestsBackend.&lt;init&gt;(E2ETestsBackend.java:15)
+            at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+            at com.ibm.devex.appman.integration.E2ETestsRunner.run(E2ETestsRunner.java:88)
+            at com.ibm.devex.appman.integration.SmokeTest.main(SmokeTest.java:47)
+        </error>
+    </testcase>
+    <system-out><![CDATA[++++++++++++ START SYSTEM-OUT FOR CreateApp ++++++++++++
+Failed: test01CreateApp
+------------ END SYSTEM-OUT FOR CreateApp --------------
+++++++++++++ START SYSTEM-OUT FOR VerifyServiceCreation ++++++++++++
+Failed: test02VerifyServiceCreation
+------------ END SYSTEM-OUT FOR VerifyServiceCreation --------------
+++++++++++++ START SYSTEM-OUT FOR Generate ++++++++++++
+Failed: test03Generate
+------------ END SYSTEM-OUT FOR Generate --------------
+++++++++++++ START SYSTEM-OUT FOR GenerateCheckStatus ++++++++++++
+Failed: test04GenerateCheckStatus
+------------ END SYSTEM-OUT FOR GenerateCheckStatus --------------
+++++++++++++ START SYSTEM-OUT FOR CreateToolchain ++++++++++++
+Failed: test05CreateToolchain
+------------ END SYSTEM-OUT FOR CreateToolchain --------------
+++++++++++++ START SYSTEM-OUT FOR DevopsPipelineBuildStageIsOK ++++++++++++
+Failed: test06DevopsPipelineBuildStageIsOK
+------------ END SYSTEM-OUT FOR DevopsPipelineBuildStageIsOK --------------
+++++++++++++ START SYSTEM-OUT FOR DevopsPipelineDeployStageIsOK ++++++++++++
+Failed: test07DevopsPipelineDeployStageIsOK
+------------ END SYSTEM-OUT FOR DevopsPipelineDeployStageIsOK --------------
+++++++++++++ START SYSTEM-OUT FOR IsAppRunning ++++++++++++
+Failed: test08IsAppRunning
+------------ END SYSTEM-OUT FOR IsAppRunning --------------
+++++++++++++ START SYSTEM-OUT FOR DeleteServices ++++++++++++
+Failed: test09DeleteServices
+------------ END SYSTEM-OUT FOR DeleteServices --------------
+++++++++++++ START SYSTEM-OUT FOR DeleteApp ++++++++++++
+Failed: test10DeleteApp
+------------ END SYSTEM-OUT FOR DeleteApp --------------
+]]></system-out>
+    <system-err><![CDATA[++++++++++++ START SYSTEM-ERR FOR CreateApp ++++++++++++
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+------------ END SYSTEM-ERR FOR CreateApp --------------
+++++++++++++ START SYSTEM-ERR FOR VerifyServiceCreation ++++++++++++
+------------ END SYSTEM-ERR FOR VerifyServiceCreation --------------
+++++++++++++ START SYSTEM-ERR FOR Generate ++++++++++++
+------------ END SYSTEM-ERR FOR Generate --------------
+++++++++++++ START SYSTEM-ERR FOR GenerateCheckStatus ++++++++++++
+------------ END SYSTEM-ERR FOR GenerateCheckStatus --------------
+++++++++++++ START SYSTEM-ERR FOR CreateToolchain ++++++++++++
+------------ END SYSTEM-ERR FOR CreateToolchain --------------
+++++++++++++ START SYSTEM-ERR FOR DevopsPipelineBuildStageIsOK ++++++++++++
+------------ END SYSTEM-ERR FOR DevopsPipelineBuildStageIsOK --------------
+++++++++++++ START SYSTEM-ERR FOR DevopsPipelineDeployStageIsOK ++++++++++++
+------------ END SYSTEM-ERR FOR DevopsPipelineDeployStageIsOK --------------
+++++++++++++ START SYSTEM-ERR FOR IsAppRunning ++++++++++++
+------------ END SYSTEM-ERR FOR IsAppRunning --------------
+++++++++++++ START SYSTEM-ERR FOR DeleteServices ++++++++++++
+------------ END SYSTEM-ERR FOR DeleteServices --------------
+++++++++++++ START SYSTEM-ERR FOR DeleteApp ++++++++++++
+------------ END SYSTEM-ERR FOR DeleteApp --------------
+]]></system-err>
+</testsuite>
+</testsuites>

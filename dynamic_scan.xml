@@ -1,0 +1,1925 @@
+<xml-report name="AppScan Report" technology="DAST" xmlExportVersion="2.42">
+    <content>
+        <executive-summary>1</executive-summary>
+        <issues>1</issues>
+        <table-of-content>1</table-of-content>
+        <introduction>1</introduction>
+        <by-url>0</by-url>
+        <fix-recommendations>1</fix-recommendations>
+        <variants>1</variants>
+        <request-response>1</request-response>
+        <differences>1</differences>
+        <advisories>1</advisories>
+        <advisories-dot-net>1</advisories-dot-net>
+        <advisories-j2ee>1</advisories-j2ee>
+        <advisories-php>1</advisories-php>
+        <application-data>1</application-data>
+        <visited-urls>1</visited-urls>
+        <filtered-urls>0</filtered-urls>
+        <script-parameters>0</script-parameters>
+        <broken-links>1</broken-links>
+        <comments>0</comments>
+        <java-scripts>0</java-scripts>
+        <cookies>0</cookies>
+        <issue-information>1</issue-information>
+        <page-break-after-each-issue-url>0</page-break-after-each-issue-url>
+        <cover-page>1</cover-page>
+        <regulations>0</regulations>
+        <delta-analysis>0</delta-analysis>
+        <is-rtf-report>0</is-rtf-report>
+    </content>
+    <dictionary>
+        <item id="secure">Secure</item>
+        <item id="comments">Comments</item>
+        <item id="scanDateColon">Scan started:</item>
+        <item id="issueTypesDiscovered">Issue Types</item>
+        <item id="threatClassificationColon">Threat Classification:</item>
+        <item id="reportTagLine">AppScan Web Application Security Report</item>
+        <item id="FilteredUrl.Untrusted">Untested Web Server</item>
+        <item id="urlColon">URL:</item>
+        <item id="originalResponseLabel">Original Response</item>
+        <item id="threatClassification">WASC Threat Classification</item>
+        <item id="unwantedLabel">Unwanted</item>
+        <item id="affectedProductsColon">Affected Products:</item>
+        <item id="urlsStatus">URLs Status</item>
+        <item id="issuesByURL">Issues Sorted by URL</item>
+        <item id="allowConcurrentLogins">Concurrent logins:</item>
+        <item id="responseLabel">Response</item>
+        <item id="xssBlurb">Simulation of the pop-up that appears when this page is opened in a browser</item>
+        <item id="ApplicationData.HttpParamType.NoneOrUnknown">None or Unknown</item>
+        <item id="documentMap">Document Map</item>
+        <item id="BinaryDataNotIncluded">This request/response contains binary content, which is not included in generated reports.</item>
+        <item id="executiveSummary">Summary</item>
+        <item id="entityColon">Entity:</item>
+        <item id="general">General</item>
+        <item id="detectedCookies">Tracked or session ID cookies:</item>
+        <item id="trialVersionMessage">This summary report was created with the Application Security Analyzer Free Plan. Once you purchase the full service you will have access to a complete report with detailed descriptions of the issues found and how to remediate them.</item>
+        <item id="cvssScoreColon">CVSS Score:</item>
+        <item id="ApplicationData.HttpParamType.TextArea">TextArea</item>
+        <item id="informational">Informational</item>
+        <item id="sessionVerifierPattern">In-session pattern:</item>
+        <item id="ApplicationData.HttpParamType.Flash">Flash</item>
+        <item id="ApplicationData.HttpParamType.Image">Image</item>
+        <item id="differenceColon">Difference:</item>
+        <item id="ApplicationData.HttpParamType.Radio">Radio</item>
+        <item id="detailedSummaryContent">This section includes a detailed listing of the scan results, including all issue types found, all recommended remediation tasks, all vulnerable URLs, etc., and is intended to provide a detailed understanding of the security status of the application, as well as to assist in scoping and prioritizing the work required to remedy the issues found.</item>
+        <item id="fixedIssues">Fixed Issues</item>
+        <item id="testDescriptionColon">Test Description:</item>
+        <item id="sessionManagementMode">Login method:</item>
+        <item id="totalIssuesInScanColon">Total security issues discovered in the scan:</item>
+        <item id="referencesColon">References:</item>
+        <item id="brokenLinks">Failed Requests</item>
+        <item id="testPolicyColon">Test policy:</item>
+        <item id="parameters">Parameters</item>
+        <item id="introductionAndObjectivesContent">General information about the scan, including the project name, purpose of the scan, etc.</item>
+        <item id="ApplicationData.HttpParamType.Simple_Link">Simple Link</item>
+        <item id="FilteredUrl.PathLimit">Path Limit</item>
+        <item id="rulesColon">Rules:</item>
+        <item id="newUrls">New URLs</item>
+        <item id="ApplicationData.HttpParamType.Post_Data">Body</item>
+        <item id="openIssues">Open Issues</item>
+        <item id="filteredLinks">Filtered URLs</item>
+        <item id="operatingSystemColon">Operating system:</item>
+        <item id="documentMapContent">This report consists of the following sections:</item>
+        <item id="scanBaseStartedColon">Base Scan Started:</item>
+        <item id="securityIssuesBySections">Detailed Security Issues by Sections</item>
+        <item id="testLoginLabel">Test Login</item>
+        <item id="InformationalSeverityIssues">Informational severity issues:</item>
+        <item id="javaScripts">JavaScripts</item>
+        <item id="dictionarySessionManagementModeUnknown">Unknown</item>
+        <item id="FilteredUrl.Path">Path</item>
+        <item id="vulnerableURLs">Vulnerable URLs</item>
+        <item id="sniqueIssuesDetectedAcrossRegulation">{0} Unique issues detected across {1} sections of the regulation:</item>
+        <item id="highSeverityIssues">High severity issues:</item>
+        <item id="FilteredUrl.PredictableUrl">Likely Similar DOM</item>
+        <item id="fixColon">Fix:</item>
+        <item id="dictionaryTrue">True</item>
+        <item id="dictionaryNone">None</item>
+        <item id="comment">Comment</item>
+        <item id="cookies">Cookies</item>
+        <item id="firstSet">First Set</item>
+        <item id="hostColon">Host</item>
+        <item id="objectivesContent">AppScan performs real-time security assessments of web applications. These assessments aim to uncover any security issues in the application, explain the impact and risks associated with these issues, and provide guidance in planning and prioritizing the remediation, The objective of this assignment was to perform controlled attack and penetration activities to assess the overall level of security of the application.</item>
+        <item id="ApplicationData.HttpParamType.Checkbox">Checkbox</item>
+        <item id="benignLabel">Harmless</item>
+        <item id="cipherSuiteId">Id</item>
+        <item id="attackNotSupported">This attack is not supported by AppScan.</item>
+        <item id="ApplicationData.HttpParamType.Button">Button</item>
+        <item id="rawTestResponseLabel">Raw Test Response:</item>
+        <item id="loginSettings">Login Settings</item>
+        <item id="FilteredUrl.UnsupportFlash">Unsupported Flash</item>
+        <item id="createdByAppScan">This report was created by IBM Security AppScan Standard</item>
+        <item id="nodePathColon">Report Produced on Tree node:</item>
+        <item id="additionalDataColon">Additional Data:</item>
+        <item id="issuesStatus">Issues Status</item>
+        <item id="testResponseNextToLastLabel">Test Response (next-to-last)</item>
+        <item id="applicationServerColon">Application server:</item>
+        <item id="generalInformation">General Information</item>
+        <item id="testTypeColon">Test Type:</item>
+        <item id="executiveSummaryContent">This section is a high-level "overview" of the information gathered during the scan, using graphs or comparative numbers, and is intended to provide a general understanding of the security status of the application.</item>
+        <item id="ApplicationData.HttpParamType.AMF">AMF</item>
+        <item id="ApplicationData.HttpParamType.XML">XML</item>
+        <item id="deltaAnalysis">Delta Analysis</item>
+        <item id="testResponseLastLabel">Test Response (last)</item>
+        <item id="ApplicationData.HttpParamType.Hidden">Hidden</item>
+        <item id="cweColon">CWE:</item>
+        <item id="cveColon">CVE:</item>
+        <item id="of">of</item>
+        <item id="addedToRequestColon">added to request:</item>
+        <item id="numberOfIssues">Number of Issues</item>
+        <item id="FilteredUrl.DomSimilarity">Similar DOM</item>
+        <item id="trialVersionWatermark">Free Plan</item>
+        <item id="malwareLabel">Malicious</item>
+        <item id="dictionarySessionManagementModeAutomatic">Automatic</item>
+        <item id="ApplicationData.HttpParamType.Submit">Submit</item>
+        <item id="added">added</item>
+        <item id="fixed">Fixed</item>
+        <item id="cause">Cause</item>
+        <item id="index">Index</item>
+        <item id="issue">Issue</item>
+        <item id="query">Query</item>
+        <item id="ApplicationData.HttpParamType.Select">Select</item>
+        <item id="value">Value</item>
+        <item id="cipherSuitesTitle">The following weak cipher suites are supported by the server:</item>
+        <item id="fix">Fix</item>
+        <item id="low">Low</item>
+        <item id="new">New</item>
+        <item id="toc">TOC</item>
+        <item id="url">URL</item>
+        <item id="php">PHP</item>
+        <item id="lowSeverityIssues">Low severity issues:</item>
+        <item id="visitedLinks">Visited URLs</item>
+        <item id="sampleReportWatermark">Sample Report</item>
+        <item id="remaining">Remaining</item>
+        <item id="expires">Expires</item>
+        <item id="removedUrls">Removed URLs</item>
+        <item id="targetScan">Target Scan</item>
+        <item id="ApplicationData.HttpParamType.Custom_Parameter">Custom</item>
+        <item id="mediumSeverityIssues">Medium severity issues:</item>
+        <item id="FilteredUrl.FileExtension">File Extension</item>
+        <item id="issueType">Issue Type</item>
+        <item id="FilteredUrl.LogoutFilter">Logout Filter</item>
+        <item id="ApplicationData.HttpParamType.Password">Password</item>
+        <item id="scanFileNameColon">Scan file name:</item>
+        <item id="enableJsxInLoginReplay">JavaScript execution:</item>
+        <item id="dictionarySessionManagementModePrompt">Prompt</item>
+        <item id="webServerColon">Web server:</item>
+        <item id="dictionaryEnabled">Enabled</item>
+        <item id="objectives">Objectives</item>
+        <item id="xfidColon">X-Force:</item>
+        <item id="introductionContent">This report contains the results of a web application security scan performed by IBM Security AppScan Standard.</item>
+        <item id="testTechnicalDescriptionColon">Technical Description:</item>
+        <item id="variant">Variant</item>
+        <item id="appScanSeverity">AppScan Severity</item>
+        <item id="FilteredUrl.RequestMethod">HTTP Request Method</item>
+        <item id="issuesDetectedAcrossRegulation">Issues detected across {0} sections of the regulation:</item>
+        <item id="totalIssuesInReportColon">Total security issues included in the report:</item>
+        <item id="tableOfContents">Table of Contents</item>
+        <item id="introductionAndObjectives">Introduction and Objectives</item>
+        <item id="FilteredUrl.DepthLimit">Depth Limit</item>
+        <item id="detectedParameters">Tracked or session ID parameters:</item>
+        <item id="originalRequestsAndResponsesColon">Original Requests and Responses:</item>
+        <item id="sessionVerifierEnabled">In-session detection:</item>
+        <item id="FilteredUrl.TotVisitedLinksLimit">Total Visited Links Limit</item>
+        <item id="newIssues">New Issues</item>
+        <item id="TotalSecurityIssues">total security issues</item>
+        <item id="introduction">Introduction</item>
+        <item id="dictionarySessionManagementModeRecorded">Recorded login</item>
+        <item id="scanTargetStartedColon">Target Scan Started:</item>
+        <item id="baseScan">Base Scan</item>
+        <item id="testResponseFirstLabel">Test Response (first)</item>
+        <item id="causesColon">Causes:</item>
+        <item id="sectionViolation">Violated Section</item>
+        <item id="critical">Critical</item>
+        <item id="portColon">Port</item>
+        <item id="validLoginLabel">Valid Login</item>
+        <item id="severityColon">Severity:</item>
+        <item id="parameter">Parameter</item>
+        <item id="severity">Severity</item>
+        <item id="applicationData">Application Data</item>
+        <item id="testRequestLabel">Test Request:</item>
+        <item id="fixRecommendations">Fix Recommendations</item>
+        <item id="reasoningColon">Reasoning:</item>
+        <item id="domain">Domain</item>
+        <item id="dotNet">.Net</item>
+        <item id="advisories">Advisories</item>
+        <item id="entity">Entity</item>
+        <item id="riskColon">Risk:</item>
+        <item id="createdBySaaS">This report was created by IBM Application Security Analyzer - Dynamic, Security rules version:</item>
+        <item id="criticalSeverityIssues">Critical severity issues:</item>
+        <item id="ApplicationData.HttpParamType.File">File</item>
+        <item id="ApplicationData.HttpParamType.JSON">JSON</item>
+        <item id="ApplicationData.HttpParamType.Text">Text</item>
+        <item id="reportName">Comprehensive Security Report</item>
+        <item id="issueTypes">Issue Types</item>
+        <item id="regulations">Regulations</item>
+        <item id="removed">removed</item>
+        <item id="FilteredUrl.ImageContext">Image Context</item>
+        <item id="removedLabel">Removed</item>
+        <item id="medium">Medium</item>
+        <item id="method">Method</item>
+        <item id="FilteredUrl.MaxLengthExceeded">URL Length Limit</item>
+        <item id="sslVersion">SSL Version</item>
+        <item id="dictionaryTestPolicyModified">(Modified)</item>
+        <item id="sections">Sections</item>
+        <item id="causes">Causes</item>
+        <item id="cookie">Cookie</item>
+        <item id="header">Header</item>
+        <item id="GeneralInformation.Unknown">Unknown</item>
+        <item id="FilteredUrl.RegExp">General Regular Expression</item>
+        <item id="dictionaryDisabled">Disabled</item>
+        <item id="affectedURLs">Vulnerable URLs</item>
+        <item id="manipulatedFromColon">manipulated from:</item>
+        <item id="issueDistributionByScan">Issue Distribution by Scan</item>
+        <item id="threat">Threat</item>
+        <item id="securityRisks">Security Risks</item>
+        <item id="securityRisksColon">Security Risks:</item>
+        <item id="requestedURL">Requested URL</item>
+        <item id="testRequestsResponsesColon">Test Requests and Responses:</item>
+        <item id="numberOfAffectedIssues">this is now the same as the one below - should be removed</item>
+        <item id="requestLabel">Request</item>
+        <item id="trialVersionHeader">Please Note:</item>
+        <item id="remediationTask">Remediation Task</item>
+        <item id="detailedSummary">Detailed Summary</item>
+        <item id="issuesByIssueType">Issues Sorted by Issue Type</item>
+        <item id="remainingUrls">Remaining URLs</item>
+        <item id="cipherSuiteName">Name</item>
+        <item id="toColon">to:</item>
+        <item id="FilteredUrl.NestingLimit">Nesting Limit</item>
+        <item id="testResponseLabel">Test Response</item>
+        <item id="removedFromRequestColon">removed from request:</item>
+        <item id="FilteredUrl.BodySimilar">Similar Body</item>
+        <item id="originalRequestLabel">Original Request</item>
+        <item id="body">Body</item>
+        <item id="code">Code</item>
+        <item id="high">High</item>
+        <item id="name">Name</item>
+        <item id="open">Open</item>
+        <item id="type">Type</item>
+        <item id="j2ee">J2EE</item>
+        <item id="path">Path</item>
+        <item id="risk">Risk</item>
+        <item id="sectionViolationByIssue">Section Violation By Issue</item>
+        <item id="dictionaryFalse">False</item>
+        <item id="GeneralInformation.Any">Any</item>
+        <item id="recordedRequestSequence">Login sequence:</item>
+        <item id="willFix">Issue Types that this task fixes</item>
+        <item id="reason">Reason</item>
+    </dictionary>
+    <layout>
+        <rules-number>8720</rules-number>
+        <title>
+            <item>Web Application Report</item>
+        </title>
+        <report-type>Security Report</report-type>
+        <description>
+            <item>This report includes important security information about your web application.</item>
+        </description>
+        <header />
+        <footer />
+        <include-date>1</include-date>
+        <report-date-and-time>1/17/2017 5:42:45 PM</report-date-and-time>
+        <company-logo-path />
+        <additional-logo-path />
+        <margins>1</margins>
+        <node-path />
+        <coverage>SaasTrialReport</coverage>
+    </layout>
+    <scan-information>
+        <scan-name>microservices-dynamic-appscan-Production-4</scan-name>
+        <scan-file-name />
+        <scan-date-and-time>Tuesday, January 17, 2017 11:35:03 PM</scan-date-and-time>
+        <scan-date-and-time-iso>2017-01-17T17:35:03Z</scan-date-and-time-iso>
+        <product-name>IBM Security AppScan Standard</product-name>
+        <product-version>9.0.3.5</product-version>
+        <engine-version>1.0.6683.0</engine-version>
+    </scan-information>
+    <scan-configuration>
+        <login-settings-group>
+            <allow-concurrent-logins />
+            <enable-Jsx-In-login-replay />
+            <session-management-mode>dictionaryNone</session-management-mode>
+            <session-verifier-enabled />
+            <session-verifier-pattern />
+            <tracked-cookies />
+            <tracked-parameters />
+            <recorded-urls-sequence />
+        </login-settings-group>
+        <test-policy-name> (Production)</test-policy-name>
+        <starting-url>http://test-catalog-api-microservices-dynamic-appscan.stage1.mybluemix.net/</starting-url>
+        <link-limit-state>dictionaryDisabled</link-limit-state>
+        <link-limit>500</link-limit>
+        <depth-limit-state>dictionaryEnabled</depth-limit-state>
+        <depth-limit>10</depth-limit>
+        <path-limit-state>dictionaryDisabled</path-limit-state>
+        <path-limit>500</path-limit>
+        <form-filler-state>dictionaryEnabled</form-filler-state>
+        <java-script-links-execution>dictionaryEnabled</java-script-links-execution>
+        <java-script-links-extraction>dictionaryEnabled</java-script-links-extraction>
+        <flash-execution-state>dictionaryDisabled</flash-execution-state>
+        <flash-links-extraction-state>dictionaryDisabled</flash-links-extraction-state>
+        <additional-servers-and-domains />
+        <multi-phase-operation-names />
+        <path-filters>
+            <path-filter>
+                <path>.*/deleteweb.aspx</path>
+                <type>Exclude</type>
+                <matching>True</matching>
+            </path-filter>
+        </path-filters>
+        <glass-box-agent>dictionaryNone</glass-box-agent>
+        <glass-box-in-explore-stage>dictionaryDisabled</glass-box-in-explore-stage>
+        <glass-box-in-test-stage>dictionaryDisabled</glass-box-in-test-stage>
+        <custom-proxy-settings>dictionaryDisabled</custom-proxy-settings>
+        <use-ie-proxy-settings>dictionaryDisabled</use-ie-proxy-settings>
+        <proxy-settings-ip-address />
+        <proxy-settings-port>8080</proxy-settings-port>
+        <scanned-hosts>
+            <item>
+                <host>test-catalog-api-microservices-dynamic-appscan.stage1.mybluemix.net</host>
+                <port>0</port>
+                <operating-system>GeneralInformation.Unknown</operating-system>
+                <web-server>GeneralInformation.Unknown</web-server>
+                <application-server>GeneralInformation.Any</application-server>
+            </item>
+        </scanned-hosts>
+    </scan-configuration>
+    <scan-summary>
+        <scan-Duration>0:7</scan-Duration>
+        <explore-phases>
+            <scan-phase>
+                <DurationTicks>488262646</DurationTicks>
+                <PhaseIndex>0</PhaseIndex>
+            </scan-phase>
+        </explore-phases>
+        <test-phases>
+            <scan-phase>
+                <DurationTicks>4119888121</DurationTicks>
+                <PhaseIndex>0</PhaseIndex>
+            </scan-phase>
+        </test-phases>
+    </scan-summary>
+    <issue-type-group>
+        <item id="ContentSecurityPolicy" count="2" maxIssueSeverity="1">
+            <name>Missing "Content-Security-Policy" header</name>
+            <cve />
+            <cwe>200</cwe>
+            <xfid>0</xfid>
+            <remediation>
+                <ref>fix_61770</ref>
+            </remediation>
+            <advisory>
+                <ref>ContentSecurityPolicy</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <fix-recommendation>
+                <ref>ContentSecurityPolicy</ref>
+            </fix-recommendation>
+            <causes>
+                <ref>Cause_0</ref>
+            </causes>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <affected-products>
+                <ref>0</ref>
+            </affected-products>
+        </item>
+        <item id="ContentTypeOptions" count="2" maxIssueSeverity="1">
+            <name>Missing "X-Content-Type-Options" header</name>
+            <cve />
+            <cwe>200</cwe>
+            <xfid>0</xfid>
+            <remediation>
+                <ref>fix_61767</ref>
+            </remediation>
+            <advisory>
+                <ref>ContentTypeOptions</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <fix-recommendation>
+                <ref>ContentTypeOptions</ref>
+            </fix-recommendation>
+            <causes>
+                <ref>Cause_0</ref>
+            </causes>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <affected-products>
+                <ref>0</ref>
+            </affected-products>
+        </item>
+        <item id="XSSProtectionHeader" count="2" maxIssueSeverity="1">
+            <name>Missing "X-XSS-Protection" header</name>
+            <cve />
+            <cwe>200</cwe>
+            <xfid>0</xfid>
+            <remediation>
+                <ref>fix_61765</ref>
+            </remediation>
+            <advisory>
+                <ref>XSSProtectionHeader</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <fix-recommendation>
+                <ref>XSSProtectionHeader</ref>
+            </fix-recommendation>
+            <causes>
+                <ref>Cause_0</ref>
+            </causes>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <affected-products>
+                <ref>0</ref>
+            </affected-products>
+        </item>
+        <item id="CORS" count="2" maxIssueSeverity="1">
+            <name>Overly Permissive CORS Access Policy</name>
+            <cve />
+            <cwe>200</cwe>
+            <xfid>0</xfid>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <fix-recommendation>
+                <ref>CORS</ref>
+            </fix-recommendation>
+            <causes>
+                <ref>Cause_0</ref>
+            </causes>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <affected-products>
+                <ref>1</ref>
+            </affected-products>
+        </item>
+    </issue-type-group>
+    <threat-class-group>
+        <item id="catInformationLeakage" href="http://projects.webappsec.org/Information-Leakage">Information Leakage</item>
+    </threat-class-group>
+    <issue-group total="103">
+        <item id="2727269819392687104">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>ContentSecurityPolicy</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61770</ref>
+            </remediation>
+            <advisory>
+                <ref>ContentSecurityPolicy</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="1274678095767304960">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>ContentSecurityPolicy</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61770</ref>
+            </remediation>
+            <advisory>
+                <ref>ContentSecurityPolicy</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>1733046179033861888</ref>
+            </entity>
+            <url>
+                <ref>-1602329391</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-7001112304346128896">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>ContentTypeOptions</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61767</ref>
+            </remediation>
+            <advisory>
+                <ref>ContentTypeOptions</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>1733046179033861888</ref>
+            </entity>
+            <url>
+                <ref>-1602329391</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="4233276743977736448">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>ContentTypeOptions</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61767</ref>
+            </remediation>
+            <advisory>
+                <ref>ContentTypeOptions</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="116755007372958976">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>XSSProtectionHeader</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61765</ref>
+            </remediation>
+            <advisory>
+                <ref>XSSProtectionHeader</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>1733046179033861888</ref>
+            </entity>
+            <url>
+                <ref>-1602329391</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="9042611161127243008">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>XSSProtectionHeader</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61765</ref>
+            </remediation>
+            <advisory>
+                <ref>XSSProtectionHeader</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="4063524085336034560">
+            <severity>low</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>1733046179033861888</ref>
+            </entity>
+            <url>
+                <ref>-1602329391</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+        <item id="-8653349246167876608">
+            <severity>high</severity>
+            <severity-id>1</severity-id>
+            <cvss-score>5.0</cvss-score>
+            <cwe>200</cwe>
+            <issue-type>
+                <ref>CORS</ref>
+            </issue-type>
+            <remediation>
+                <ref>fix_61753</ref>
+            </remediation>
+            <advisory>
+                <ref>CORS</ref>
+            </advisory>
+            <threat-class>
+                <ref>catInformationLeakage</ref>
+            </threat-class>
+            <entity>
+                <ref>7984889656093251584</ref>
+            </entity>
+            <url>
+                <ref>-1892323389</ref>
+            </url>
+            <security-risks>
+                <ref>sensitiveInformation</ref>
+                <ref>phishing</ref>
+            </security-risks>
+            <cause-id>
+                <ref>insecureWebAppConfiguration</ref>
+            </cause-id>
+            <user-image-group />
+            <variant-group />
+        </item>
+    </issue-group>
+    <security-risk-group maxIssuesByRisk="8">
+        <item id="sensitiveInformation">It is possible to gather sensitive information about the web application such as usernames, passwords, machine name and/or sensitive file locations</item>
+        <item id="phishing">It is possible to persuade a naive user to supply sensitive information such as username, password, credit card number, social security number etc.</item>
+    </security-risk-group>
+    <visited-link-group>
+        <total>2</total>
+        <item>
+            <url>http://test-catalog-api-microservices-dynamic-appscan.stage1.mybluemix.net/</url>
+        </item>
+        <item>
+            <url>http://test-catalog-api-microservices-dynamic-appscan.stage1.mybluemix.net/items</url>
+        </item>
+    </visited-link-group>
+    <unique-visited-link-group>
+        <max-issues-in-url>4</max-issues-in-url>
+        <item>
+            <url>http://test-catalog-api-microservices-dynamic-appscan.stage1.mybluemix.net/</url>
+        </item>
+        <item>
+            <url>http://test-catalog-api-microservices-dynamic-appscan.stage1.mybluemix.net/items</url>
+        </item>
+    </unique-visited-link-group>
+    <broken-link-group>
+        <total>0</total>
+    </broken-link-group>
+</xml-report>

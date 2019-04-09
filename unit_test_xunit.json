@@ -1,0 +1,44 @@
+{
+    "testsuites": {
+        "testsuite": [{
+            "$": {
+                "package": "otc-github-broker",
+                "name": "GitHub Broker - Test GET version",
+                "tests": "1",
+                "failures": "1",
+                "errors": "0"
+            },
+            "testcase": {
+                "$": {
+                    "name": "#223 did the get version call succeed?"
+                }
+            }
+        }, {
+            "$": {
+                "package": "otc-github-broker",
+                "name": "GitHub Broker - Test GET GitHub token",
+                "tests": "1",
+                "failures": "1",
+                "errors": "0"
+            },
+            "testcase": {
+                "$": {
+                    "name": "#224 did the get GitHub token call succeed?"
+                }
+            }
+        }, {
+            "$": {
+                "package": "otc-github-broker",
+                "name": "GitHub Broker - Test GET GitHub API url",
+                "tests": "1",
+                "failures": "1",
+                "errors": "0"
+            },
+            "testcase": {
+                "$": {
+                    "name": "#225 did the get GitHub API url call succeed?"
+                }
+            }
+        }]
+    }
+}

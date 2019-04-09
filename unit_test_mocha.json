@@ -1,0 +1,1598 @@
+{
+    "stats": {
+        "suites": 31,
+        "tests": 113,
+        "passes": 113,
+        "pending": 0,
+        "failures": 0,
+        "start": "2018-02-08T22:56:38.131Z",
+        "end": "2018-02-08T22:56:38.262Z",
+        "duration": 131
+    },
+    "tests": [{
+            "title": "Post - success",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post - success",
+            "duration": 7,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post missing build_artifact",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post missing build_artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post build_artifact that does not exist",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post build_artifact that does not exist",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post an empty description",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post an empty description",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for specific build artifact - success",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for specific build artifact - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for specific build artifact - BA does not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for specific build artifact - BA does not exist",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for specific build artifact - metadata does not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for specific build artifact - metadata does not exist",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for ALL build artifacts - success",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for ALL build artifacts - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for ALL build artifacts - BAs do not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for ALL build artifacts - BAs do not exist",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for ALL build artifacts - metadata does not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for ALL build artifacts - metadata does not exist",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - required field(build_id) missing error",
+            "fullTitle": "buildsv2.js Post build Post - required field(build_id) missing error",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - repository field not available",
+            "fullTitle": "buildsv2.js Post build Post - repository field not available",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - repository available but no branch information",
+            "fullTitle": "buildsv2.js Post build Post - repository available but no branch information",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error while searching dictionary",
+            "fullTitle": "buildsv2.js Post build Post - error while searching dictionary",
+            "duration": 11,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error while updating dictionary",
+            "fullTitle": "buildsv2.js Post build Post - error while updating dictionary",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - no error",
+            "fullTitle": "buildsv2.js Post build Post - no error",
+            "duration": 6,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - error while searching builds",
+            "fullTitle": "buildsv2.js Get builds Get - error while searching builds",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - no error",
+            "fullTitle": "buildsv2.js Get builds Get - no error",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - fail to get records on second find when building link",
+            "fullTitle": "buildsv2.js Get builds Get - fail to get records on second find when building link",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - aggregation",
+            "fullTitle": "leadtimes.js validation check - aggregation",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - aggregation.frequency",
+            "fullTitle": "leadtimes.js validation check - aggregation.frequency",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_start missing",
+            "fullTitle": "leadtimes.js validation check - interval_start missing",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_end missing",
+            "fullTitle": "leadtimes.js validation check - interval_end missing",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_start invalid",
+            "fullTitle": "leadtimes.js validation check - interval_start invalid",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_end missing",
+            "fullTitle": "leadtimes.js validation check - interval_end missing",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - start time is after end time",
+            "fullTitle": "leadtimes.js validation check - start time is after end time",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Error fetching results",
+            "fullTitle": "leadtimes.js cycletimes Error fetching results",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = INDIVIDUAL",
+            "fullTitle": "leadtimes.js cycletimes frequency = INDIVIDUAL",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = DAILY",
+            "fullTitle": "leadtimes.js cycletimes frequency = DAILY",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = WEEKLY",
+            "fullTitle": "leadtimes.js cycletimes frequency = WEEKLY",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = MONTHLY",
+            "fullTitle": "leadtimes.js cycletimes frequency = MONTHLY",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = YEARLY",
+            "fullTitle": "leadtimes.js cycletimes frequency = YEARLY",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error environment name missing",
+            "fullTitle": "deploymentsv2.js Post deployment Post - error environment name missing",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success",
+            "fullTitle": "deploymentsv2.js Post deployment Post - success",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error accept field is incorrect",
+            "fullTitle": "deploymentsv2.js Post deployment Post - error accept field is incorrect",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "deploymentsv2.js Get deployments Get - success",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - fail to get records",
+            "fullTitle": "deploymentsv2.js Get deployments Get - fail to get records",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - fail to get records on second find when building link",
+            "fullTitle": "deploymentsv2.js Get deployments Get - fail to get records on second find when building link",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - no records found",
+            "fullTitle": "deploymentsv2.js Get deployments Get - no records found",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - deployments with env_name and intervals",
+            "fullTitle": "deploymentsv2.js Get deployments Get - deployments with env_name and intervals",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "deploymentsv2.js Get environments Get - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - failure",
+            "fullTitle": "deploymentsv2.js Get environments Get - failure",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "no payload",
+            "fullTitle": "latesttestresults validation no payload",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "partial payload",
+            "fullTitle": "latesttestresults validation partial payload",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "incorrect payload",
+            "fullTitle": "latesttestresults validation incorrect payload",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload",
+            "fullTitle": "latesttestresults summary correct payload",
+            "duration": 5,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - failed during Latest results find",
+            "fullTitle": "latesttestresults summary correct payload - failed during Latest results find",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - failed during bulk get call",
+            "fullTitle": "latesttestresults summary correct payload - failed during bulk get call",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - failed during attachment get",
+            "fullTitle": "latesttestresults summary correct payload - failed during attachment get",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - success with doc_id",
+            "fullTitle": "latesttestresults summary correct payload - success with doc_id",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success",
+            "fullTitle": "resultsv2.js Post results Post - success",
+            "duration": 8,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success no test_artifact sent",
+            "fullTitle": "resultsv2.js Post results Post - success no test_artifact sent",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - fail artifact_name sent",
+            "fullTitle": "resultsv2.js Post results Post - fail artifact_name sent",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - fail unknown content",
+            "fullTitle": "resultsv2.js Post results Post - fail unknown content",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - Failed to find the dictionary record",
+            "fullTitle": "resultsv2.js Post results Post - Failed to find the dictionary record",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - test record insert failed due to some other reason than document update conflict.",
+            "fullTitle": "resultsv2.js Post results Post - test record insert failed due to some other reason than document update conflict.",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success with no environment_name",
+            "fullTitle": "resultsv2.js Post results Post - success with no environment_name",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "resultsv2.js Get results Get - success",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success no data",
+            "fullTitle": "resultsv2.js Get results Get - success no data",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - when only single ID is passed",
+            "fullTitle": "resultsv2.js Get results Get results by ID - when only single ID is passed",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - when multiple IDs are passed",
+            "fullTitle": "resultsv2.js Get results Get results by ID - when multiple IDs are passed",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - success but no documents found",
+            "fullTitle": "resultsv2.js Get results Get results by ID - success but no documents found",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - success and documents found but error while fetching attachments",
+            "fullTitle": "resultsv2.js Get results Get results by ID - success and documents found but error while fetching attachments",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - success and documents found and attachments fetch also suceeded",
+            "fullTitle": "resultsv2.js Get results Get results by ID - success and documents found and attachments fetch also suceeded",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Purge - fails",
+            "fullTitle": "resultsv2.js Purge results Purge - fails",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Purge - success",
+            "fullTitle": "resultsv2.js Purge results Purge - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Purge - success with env and build artifact",
+            "fullTitle": "resultsv2.js Purge results Purge - success with env and build artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getlatestresult - success",
+            "fullTitle": "resultsv2.js getlatestresults getlatestresult - success",
+            "duration": 5,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getbuildata - success",
+            "fullTitle": "resultsv2.js getbuilddata getbuildata - success",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getbuildata - when more build records found, process picks latest one.",
+            "fullTitle": "resultsv2.js getbuilddata getbuildata - when more build records found, process picks latest one.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "fullTitle": "resultsv2.js getbuilddata getbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - success",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - success",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - success",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - when more build records found, process picks latest one.",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - when more build records found, process picks latest one.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "resultsv2.js Get buildartifacts Get - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - failure",
+            "fullTitle": "resultsv2.js Get buildartifacts Get - failure",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - failure",
+            "fullTitle": "resultsv2.js Get timeline events Get - failure",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success but no docs",
+            "fullTitle": "resultsv2.js Get timeline events Get - success but no docs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success and documents found(duplicate documents)",
+            "fullTitle": "resultsv2.js Get timeline events Get - success and documents found(duplicate documents)",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Parse lcov",
+            "fullTitle": "resultsv2.js Test lcov conversion to Istanbul Parse lcov",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For mocha",
+            "fullTitle": "utils.js FUNCTION:getToolType For mocha",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For istanbul",
+            "fullTitle": "utils.js FUNCTION:getToolType For istanbul",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For blanketjs",
+            "fullTitle": "utils.js FUNCTION:getToolType For blanketjs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit",
+            "fullTitle": "utils.js FUNCTION:getToolType For xunit",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit without testsuites",
+            "fullTitle": "utils.js FUNCTION:getToolType For xunit without testsuites",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For SonarQube",
+            "fullTitle": "utils.js FUNCTION:getToolType For SonarQube",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For karmamocha",
+            "fullTitle": "utils.js FUNCTION:getToolType For karmamocha",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For codescan",
+            "fullTitle": "utils.js FUNCTION:getToolType For codescan",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For codescansummary - should not be accepted anymore.",
+            "fullTitle": "utils.js FUNCTION:getToolType For codescansummary - should not be accepted anymore.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For saucelabs",
+            "fullTitle": "utils.js FUNCTION:getToolType For saucelabs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For unknown tool",
+            "fullTitle": "utils.js FUNCTION:getToolType For unknown tool",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For mocha",
+            "fullTitle": "utils.js FUNCTION:summaryResults For mocha",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For karmamocha",
+            "fullTitle": "utils.js FUNCTION:summaryResults For karmamocha",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For codescansummary - bad toolname.",
+            "fullTitle": "utils.js FUNCTION:summaryResults For codescansummary - bad toolname.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - verify scan name",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - verify scan name",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - verify low severity issue name",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - verify low severity issue name",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - high cases",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - high cases",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - low cases",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - low cases",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - test when issues field is not an array but object",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - test when issues field is not an array but object",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit",
+            "fullTitle": "utils.js FUNCTION:summaryResults For xunit",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit without test suites",
+            "fullTitle": "utils.js FUNCTION:summaryResults For xunit without test suites",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit newman results",
+            "fullTitle": "utils.js FUNCTION:summaryResults For xunit newman results",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For SonarQube",
+            "fullTitle": "utils.js FUNCTION:summaryResults For SonarQube",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For saucelabs",
+            "fullTitle": "utils.js FUNCTION:summaryResults For saucelabs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For istanbul",
+            "fullTitle": "utils.js FUNCTION:summaryResults For istanbul",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For blanket",
+            "fullTitle": "utils.js FUNCTION:summaryResults For blanket",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For unknown, return should be NULL",
+            "fullTitle": "utils.js FUNCTION:summaryResults For unknown, return should be NULL",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With error and no documents.",
+            "fullTitle": "utils.js FUNCTION:fetchBulkData With error and no documents.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With no error, no documents but a bookmark",
+            "fullTitle": "utils.js FUNCTION:fetchBulkData With no error, no documents but a bookmark",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With no error, no documents and no bookmark",
+            "fullTitle": "utils.js FUNCTION:fetchBulkData With no error, no documents and no bookmark",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With one element in array",
+            "fullTitle": "utils.js FUNCTION:deleteRedundantLatestTestResultsAndReturnLatest With one element in array",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With two element in array",
+            "fullTitle": "utils.js FUNCTION:deleteRedundantLatestTestResultsAndReturnLatest With two element in array",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        }
+    ],
+    "pending": [],
+    "failures": [],
+    "passes": [{
+            "title": "Post - success",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post - success",
+            "duration": 7,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post missing build_artifact",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post missing build_artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post build_artifact that does not exist",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post build_artifact that does not exist",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post an empty description",
+            "fullTitle": "Build artifact metadata APIs Post metadata Post an empty description",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for specific build artifact - success",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for specific build artifact - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for specific build artifact - BA does not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for specific build artifact - BA does not exist",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for specific build artifact - metadata does not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for specific build artifact - metadata does not exist",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for ALL build artifacts - success",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for ALL build artifacts - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for ALL build artifacts - BAs do not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for ALL build artifacts - BAs do not exist",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get metadata for ALL build artifacts - metadata does not exist",
+            "fullTitle": "Build artifact metadata APIs Get results Get metadata for ALL build artifacts - metadata does not exist",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - required field(build_id) missing error",
+            "fullTitle": "buildsv2.js Post build Post - required field(build_id) missing error",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - repository field not available",
+            "fullTitle": "buildsv2.js Post build Post - repository field not available",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - repository available but no branch information",
+            "fullTitle": "buildsv2.js Post build Post - repository available but no branch information",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error while searching dictionary",
+            "fullTitle": "buildsv2.js Post build Post - error while searching dictionary",
+            "duration": 11,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error while updating dictionary",
+            "fullTitle": "buildsv2.js Post build Post - error while updating dictionary",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - no error",
+            "fullTitle": "buildsv2.js Post build Post - no error",
+            "duration": 6,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - error while searching builds",
+            "fullTitle": "buildsv2.js Get builds Get - error while searching builds",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - no error",
+            "fullTitle": "buildsv2.js Get builds Get - no error",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - fail to get records on second find when building link",
+            "fullTitle": "buildsv2.js Get builds Get - fail to get records on second find when building link",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - aggregation",
+            "fullTitle": "leadtimes.js validation check - aggregation",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - aggregation.frequency",
+            "fullTitle": "leadtimes.js validation check - aggregation.frequency",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_start missing",
+            "fullTitle": "leadtimes.js validation check - interval_start missing",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_end missing",
+            "fullTitle": "leadtimes.js validation check - interval_end missing",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_start invalid",
+            "fullTitle": "leadtimes.js validation check - interval_start invalid",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - interval_end missing",
+            "fullTitle": "leadtimes.js validation check - interval_end missing",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "check - start time is after end time",
+            "fullTitle": "leadtimes.js validation check - start time is after end time",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Error fetching results",
+            "fullTitle": "leadtimes.js cycletimes Error fetching results",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = INDIVIDUAL",
+            "fullTitle": "leadtimes.js cycletimes frequency = INDIVIDUAL",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = DAILY",
+            "fullTitle": "leadtimes.js cycletimes frequency = DAILY",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = WEEKLY",
+            "fullTitle": "leadtimes.js cycletimes frequency = WEEKLY",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = MONTHLY",
+            "fullTitle": "leadtimes.js cycletimes frequency = MONTHLY",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "frequency = YEARLY",
+            "fullTitle": "leadtimes.js cycletimes frequency = YEARLY",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error environment name missing",
+            "fullTitle": "deploymentsv2.js Post deployment Post - error environment name missing",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success",
+            "fullTitle": "deploymentsv2.js Post deployment Post - success",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - error accept field is incorrect",
+            "fullTitle": "deploymentsv2.js Post deployment Post - error accept field is incorrect",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "deploymentsv2.js Get deployments Get - success",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - fail to get records",
+            "fullTitle": "deploymentsv2.js Get deployments Get - fail to get records",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - fail to get records on second find when building link",
+            "fullTitle": "deploymentsv2.js Get deployments Get - fail to get records on second find when building link",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - no records found",
+            "fullTitle": "deploymentsv2.js Get deployments Get - no records found",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - deployments with env_name and intervals",
+            "fullTitle": "deploymentsv2.js Get deployments Get - deployments with env_name and intervals",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "deploymentsv2.js Get environments Get - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - failure",
+            "fullTitle": "deploymentsv2.js Get environments Get - failure",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "no payload",
+            "fullTitle": "latesttestresults validation no payload",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "partial payload",
+            "fullTitle": "latesttestresults validation partial payload",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "incorrect payload",
+            "fullTitle": "latesttestresults validation incorrect payload",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload",
+            "fullTitle": "latesttestresults summary correct payload",
+            "duration": 5,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - failed during Latest results find",
+            "fullTitle": "latesttestresults summary correct payload - failed during Latest results find",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - failed during bulk get call",
+            "fullTitle": "latesttestresults summary correct payload - failed during bulk get call",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - failed during attachment get",
+            "fullTitle": "latesttestresults summary correct payload - failed during attachment get",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "correct payload - success with doc_id",
+            "fullTitle": "latesttestresults summary correct payload - success with doc_id",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success",
+            "fullTitle": "resultsv2.js Post results Post - success",
+            "duration": 8,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success no test_artifact sent",
+            "fullTitle": "resultsv2.js Post results Post - success no test_artifact sent",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - fail artifact_name sent",
+            "fullTitle": "resultsv2.js Post results Post - fail artifact_name sent",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - fail unknown content",
+            "fullTitle": "resultsv2.js Post results Post - fail unknown content",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - Failed to find the dictionary record",
+            "fullTitle": "resultsv2.js Post results Post - Failed to find the dictionary record",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - test record insert failed due to some other reason than document update conflict.",
+            "fullTitle": "resultsv2.js Post results Post - test record insert failed due to some other reason than document update conflict.",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Post - success with no environment_name",
+            "fullTitle": "resultsv2.js Post results Post - success with no environment_name",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "resultsv2.js Get results Get - success",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success no data",
+            "fullTitle": "resultsv2.js Get results Get - success no data",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - when only single ID is passed",
+            "fullTitle": "resultsv2.js Get results Get results by ID - when only single ID is passed",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - when multiple IDs are passed",
+            "fullTitle": "resultsv2.js Get results Get results by ID - when multiple IDs are passed",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - success but no documents found",
+            "fullTitle": "resultsv2.js Get results Get results by ID - success but no documents found",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - success and documents found but error while fetching attachments",
+            "fullTitle": "resultsv2.js Get results Get results by ID - success and documents found but error while fetching attachments",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get results by ID - success and documents found and attachments fetch also suceeded",
+            "fullTitle": "resultsv2.js Get results Get results by ID - success and documents found and attachments fetch also suceeded",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Purge - fails",
+            "fullTitle": "resultsv2.js Purge results Purge - fails",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Purge - success",
+            "fullTitle": "resultsv2.js Purge results Purge - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Purge - success with env and build artifact",
+            "fullTitle": "resultsv2.js Purge results Purge - success with env and build artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getlatestresult - success",
+            "fullTitle": "resultsv2.js getlatestresults getlatestresult - success",
+            "duration": 5,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getbuildata - success",
+            "fullTitle": "resultsv2.js getbuilddata getbuildata - success",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getbuildata - when more build records found, process picks latest one.",
+            "fullTitle": "resultsv2.js getbuilddata getbuildata - when more build records found, process picks latest one.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "getbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "fullTitle": "resultsv2.js getbuilddata getbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - success",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - success",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - success",
+            "duration": 3,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - when more build records found, process picks latest one.",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - when more build records found, process picks latest one.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "searchbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "fullTitle": "resultsv2.js search_builddata searchbuildata - Select most recent artifact NOT BASED ON lifecycle_stage only but BASED ON lifecycle_stage AND test_artifact",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success",
+            "fullTitle": "resultsv2.js Get buildartifacts Get - success",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - failure",
+            "fullTitle": "resultsv2.js Get buildartifacts Get - failure",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - failure",
+            "fullTitle": "resultsv2.js Get timeline events Get - failure",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success but no docs",
+            "fullTitle": "resultsv2.js Get timeline events Get - success but no docs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Get - success and documents found(duplicate documents)",
+            "fullTitle": "resultsv2.js Get timeline events Get - success and documents found(duplicate documents)",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "Parse lcov",
+            "fullTitle": "resultsv2.js Test lcov conversion to Istanbul Parse lcov",
+            "duration": 2,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For mocha",
+            "fullTitle": "utils.js FUNCTION:getToolType For mocha",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For istanbul",
+            "fullTitle": "utils.js FUNCTION:getToolType For istanbul",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For blanketjs",
+            "fullTitle": "utils.js FUNCTION:getToolType For blanketjs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit",
+            "fullTitle": "utils.js FUNCTION:getToolType For xunit",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit without testsuites",
+            "fullTitle": "utils.js FUNCTION:getToolType For xunit without testsuites",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For SonarQube",
+            "fullTitle": "utils.js FUNCTION:getToolType For SonarQube",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For karmamocha",
+            "fullTitle": "utils.js FUNCTION:getToolType For karmamocha",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For codescan",
+            "fullTitle": "utils.js FUNCTION:getToolType For codescan",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For codescansummary - should not be accepted anymore.",
+            "fullTitle": "utils.js FUNCTION:getToolType For codescansummary - should not be accepted anymore.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For saucelabs",
+            "fullTitle": "utils.js FUNCTION:getToolType For saucelabs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For unknown tool",
+            "fullTitle": "utils.js FUNCTION:getToolType For unknown tool",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For mocha",
+            "fullTitle": "utils.js FUNCTION:summaryResults For mocha",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For karmamocha",
+            "fullTitle": "utils.js FUNCTION:summaryResults For karmamocha",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For codescansummary - bad toolname.",
+            "fullTitle": "utils.js FUNCTION:summaryResults For codescansummary - bad toolname.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - verify scan name",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - verify scan name",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - verify low severity issue name",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - verify low severity issue name",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - high cases",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - high cases",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - low cases",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - low cases",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For ibmapplicationsecurityanalyzer - test when issues field is not an array but object",
+            "fullTitle": "utils.js FUNCTION:summaryResults For ibmapplicationsecurityanalyzer - test when issues field is not an array but object",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit",
+            "fullTitle": "utils.js FUNCTION:summaryResults For xunit",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit without test suites",
+            "fullTitle": "utils.js FUNCTION:summaryResults For xunit without test suites",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For xunit newman results",
+            "fullTitle": "utils.js FUNCTION:summaryResults For xunit newman results",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For SonarQube",
+            "fullTitle": "utils.js FUNCTION:summaryResults For SonarQube",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For saucelabs",
+            "fullTitle": "utils.js FUNCTION:summaryResults For saucelabs",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For istanbul",
+            "fullTitle": "utils.js FUNCTION:summaryResults For istanbul",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For blanket",
+            "fullTitle": "utils.js FUNCTION:summaryResults For blanket",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "For unknown, return should be NULL",
+            "fullTitle": "utils.js FUNCTION:summaryResults For unknown, return should be NULL",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With error and no documents.",
+            "fullTitle": "utils.js FUNCTION:fetchBulkData With error and no documents.",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With no error, no documents but a bookmark",
+            "fullTitle": "utils.js FUNCTION:fetchBulkData With no error, no documents but a bookmark",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With no error, no documents and no bookmark",
+            "fullTitle": "utils.js FUNCTION:fetchBulkData With no error, no documents and no bookmark",
+            "duration": 1,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With one element in array",
+            "fullTitle": "utils.js FUNCTION:deleteRedundantLatestTestResultsAndReturnLatest With one element in array",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        },
+        {
+            "title": "With two element in array",
+            "fullTitle": "utils.js FUNCTION:deleteRedundantLatestTestResultsAndReturnLatest With two element in array",
+            "duration": 0,
+            "currentRetry": 0,
+            "err": {}
+        }
+    ]
+}
